@@ -1,0 +1,1255 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+@font-face {
+  font-family: Nike;
+  src: url(./Futura\ Std\ Extra\ Bold\ Condensed\ Oblique.ttf);
+}
+@font-face {
+  font-family: acquire;
+  src: url(./AquireBold-8Ma60.otf);
+}
+@font-face {
+  font-family: lineal;
+  src: url(./Lineal-Medium.ttf);
+}
+@font-face {
+  font-family: kro;
+  src: url(./Elianto-Regular.otf);
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+html.has-scroll-smooth {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  fill: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 12.66%;
+  height: 100%;
+  object-fit: cover;
+}
+#loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  background-color: #0a0a0a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  gap: 10px;
+}
+.final {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  z-index: 0;
+}
+#jesus {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+}
+#loader h2 {
+  font-family: Nike;
+  font-size: 5vw;
+}
+.peace {
+  position: absolute;
+  text-align: center;
+  top: 70%;
+  width: 100%;
+}
+#loader h3 {
+  font-family: "Gilroy-Bold";
+}
+#content {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  z-index: 3;
+  color: aliceblue;
+  background-color: #0a0a0a00;
+  font-family: "Gilroy-Bold", sans-serif;
+  margin: 0;
+}
+.nav {
+  width: 100%;
+}
+.p1header {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  display: grid;
+  justify-content: left;
+  align-items: start;
+  justify-items: start;
+  align-content: center;
+  font-size: 0;
+}
+.nav nav {
+  display: flex;
+  max-width: 1400px;
+  margin: 0 auto;
+  fill: transparent;
+  align-items: center;
+  padding: 1vw 3vw;
+  justify-content: space-between;
+  width: 100%;
+}
+.nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.nav ul a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0 1.5rem;
+  text-transform: uppercase;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.search a {
+  font-size: 1.05rem;
+}
+.hamburger a {
+  font-size: 1.05rem;
+}
+.svg {
+  z-index: 1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+}
+#p3 {
+  position: relative;
+  height: 150vh;
+  width: 100vw;
+}
+.vido {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  filter: drop-shadow(0 2px 10px #fff);
+  border-radius: 10px;
+  opacity: 0;
+}
+.kr {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #ff0000;
+  opacity: 1;
+  object-fit: cover;
+  object-position: center;
+}
+#vid1 {
+  top: 29%;
+  left: 20%;
+  transform: translate(-20%, -10%);
+  height: 15vh;
+  width: 15vw;
+  border-radius: 5px;
+}
+#vid2 {
+  top: 20%;
+  left: 46%;
+  transform: translate(-20%, -10%);
+}
+
+#vid3 {
+  top: 69%;
+  left: 69%;
+  transform: translate(-20%, -10%);
+  height: 10vh;
+  width: 15vw;
+}
+#vid4 {
+  top: 25%;
+  left: 80%;
+  transform: translate(-20%, -10%);
+}
+#vid5 {
+  top: 85%;
+  left: 40%;
+  transform: translate(-20%, -10%);
+  height: 10vh;
+  width: 15vw;
+}
+
+#vid6 {
+  top: 69%;
+  left: 20%;
+  transform: translate(-20%, -10%);
+}
+
+.vido video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 10px;
+}
+#p4 {
+  background-color: #ff0000;
+  height: 300vh;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+}
+#p4 nav {
+  position: absolute;
+  top: 0;
+  padding: 1em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-404 {
+  position: absolute;
+  top: 0;
+  width: 400vw;
+  height: 100vh;
+  will-change: transform;
+}
+.card {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+#card-1 {
+  top: 50%;
+  left: 20%;
+}
+#card-2 {
+  top: 70%;
+  left: 40%;
+}
+#card-3 {
+  top: 40%;
+  left: 60%;
+}
+#card-4 {
+  top: 15%;
+  left: 80%;
+}
+#card-5 {
+  top: 65%;
+  left: 100%;
+}
+
+.outro {
+  position: absolute;
+  top: 150vh;
+  width: 100%;
+  height: 100vh;
+}
+
+.outro h1 {
+  position: absolute;
+  padding: 0 1.05rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100%;
+  font-family: "Gilroy-Bold", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  white-space: wrap;
+  filter: blur(10px);
+}
+#p4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#p4 a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 20px;
+  font-family: acquire;
+}
+.wrapper-404 h1 {
+  width: 100%;
+  color: #fff;
+  font-size: 45vw;
+  text-align: center;
+  margin: 0;
+}
+.vc {
+  font-size: 40vw;
+  text-transform: uppercase;
+  white-space: nowrap;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+.o {
+  background: transparent;
+  display: block;
+}
+.do {
+  fill: transparent;
+  stroke: #fafafa;
+  stroke-width: 0.5;
+  opacity: 0;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 60;
+  filter: drop-shadow(0 0 10px rgb(0, 0, 0));
+}
+#p2 {
+  position: relative;
+  padding: 3vw;
+}
+#p5 {
+  position: relative;
+  padding: 4vw 0;
+  background-color: bisque;
+}
+#p5 h1 {
+  font-size: 8vw;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 100;
+  border-bottom: 1px solid black;
+}
+#p5 .rotatingdiv {
+  height: 63vh;
+  width: 100%;
+}
+#page3 {
+  fill: transparent;
+  text-align: center;
+}
+.qd {
+  font-family: "Gilroy-Bold", sans-serif;
+  color: aliceblue;
+}
+#page3 h4 {
+  margin-bottom: 1vw;
+  font-size: 2vw;
+  font-weight: 500;
+}
+#page3 h4 span {
+  font-size: 1.2vw;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+#page3-elements {
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 7.5vw;
+  fill: transparent;
+}
+#page3-elements .box {
+  height: 100%;
+  width: 32.5%;
+  position: relative;
+}
+#page3-elements .box video {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#page3-elements .box .key {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: cover;
+  transition: all linear 0.8s;
+}
+#page3-elements .box:hover .key {
+  opacity: 0;
+}
+
+.overlay-button {
+  position: absolute;
+  top: 96%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  padding: 10px 20px;
+  background-color: #111111;
+  color: whitesmoke;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  opacity: 0;
+}
+.svg3 {
+  fill: transparent;
+  stroke: #fff;
+  stroke-width: 0.1;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+}
+.write1 {
+  height: 50px;
+  width: 50%;
+  border-bottom: 1px solid #000000;
+  z-index: 100;
+}
+.write2 {
+  display: flex;
+  justify-content: right;
+  top: 90%;
+  height: 11vh;
+  width: 50vw;
+  z-index: 100;
+  border-top: 1px solid #000000;
+}
+.heading {
+  border-top: #060608;
+  border-bottom: #060608;
+  color: #fafafa;
+}
+.heading h1 {
+  font-family: acquire;
+}
+.writing {
+  font-family: "Gilroy-Bold", sans-serif;
+  color: #4e4e4e;
+  font-size: 1vw;
+}
+.video-container {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+}
+.video-container video {
+  object-fit: cover;
+  display: block;
+  width: 100%;
+  max-height: 100vh;
+  z-index: 0;
+  position: absolute;
+}
+.hero {
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  top: 70%;
+  display: grid;
+  justify-content: right;
+  align-items: end;
+  justify-items: end;
+  align-content: center;
+}
+.svg6 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+#hi1 {
+  justify-content: center;
+  display: inline-flex;
+  animation: beginning 3s ease-in-out;
+  place-items: center;
+  height: 50vh;
+  width: 100px;
+  margin-left: 40%;
+}
+#kre {
+  font-family: Nike;
+  font-size: 15vw;
+}
+
+.n-logo {
+  position: relative;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  font-family: "Gilroy-Bold", sans-serif;
+}
+#kl {
+  margin-left: 40%;
+}
+.page1 {
+  position: relative;
+  height: 130vh;
+  width: 100vw;
+}
+.page1 .t1 {
+  font-size: 5vw;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000000;
+}
+.page1 h1 span {
+  display: inline-block;
+}
+
+.page1-2 {
+  position: relative;
+  height: 120vh;
+  width: 100vw;
+  background-color: #ffffff;
+}
+.page1Side {
+  position: absolute;
+  height: 0;
+  width: 7vw;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  writing-mode: vertical-lr;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.page1Side h3 {
+  padding: 0 0.5rem;
+  text-align: center;
+  font-family: "Climate Crisis", sans-serif;
+}
+.pagea {
+  justify-content: center;
+  z-index: 0;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+}
+.ho {
+  fill: transparent;
+  stroke: #f7f7f7;
+  opacity: 0;
+  stroke-width: 0.3;
+  stroke-dasharray: 70;
+  stroke-dashoffset: 70;
+  z-index: 2;
+}
+.crash {
+  background-color: #000000;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 7%;
+  height: 70%;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#miniv1 {
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: #111111;
+}
+.p1 {
+  background-color: #111111;
+  position: relative;
+}
+.p {
+  background-color: #ff0000;
+}
+#p1 {
+  background-color: #000000;
+}
+
+#kl {
+  animation: beginning 3s ease-in-out;
+}
+.title {
+  display: flex;
+  justify-content: center;
+  z-index: 0;
+  animation: beginning 3s ease-in-out;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+}
+
+:root {
+  --background: #060608;
+  --color: #fafafa;
+}
+.container {
+  color: var(--color);
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.right {
+  text-align: right;
+  width: 100%;
+}
+
+.stack {
+  display: grid;
+  grid-template-columns: 1fr;
+  border-radius: 7px;
+  fill: #ff0000;
+}
+
+.stack span {
+  font-weight: bold;
+  grid-row-start: 1;
+  grid-column-start: 1;
+  font-size: 4rem;
+  --stack-height: calc(100% / var(--stacks) - 1px);
+  --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+  --clip-top: calc(var(--stack-height) * var(--index));
+  --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+  clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+  animation: stack 340ms cubic-bezier(0.46, 0.29, 0, 1.24) 1 backwards
+      calc(var(--index) * 120ms),
+    glitch 2s ease infinite 2s alternate-reverse;
+}
+
+.stack span:nth-child(odd) {
+  --glitch-translate: 8px;
+}
+.stack span:nth-child(even) {
+  --glitch-translate: -8px;
+}
+
+@keyframes stack {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%);
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+  }
+  60% {
+    opacity: 0.5;
+    transform: translateX(50%);
+  }
+  80% {
+    transform: none;
+    opacity: 1;
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+    transform: translate(var(--glitch-translate));
+  }
+  2% {
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+  }
+  4%,
+  100% {
+    text-shadow: none;
+    transform: none;
+  }
+}
+@keyframes textanimate1 {
+  100% {
+    top: -20px;
+    text-shadow: 0 1px 0 #0a0a0a, 0 2px 0 #1c1c1c, 0 3px 0 #2e2e2e,
+      0 4px 4px #3a3a3a, 0 5px 5px #4e4e4e;
+  }
+}
+@keyframes beginning {
+  from {
+    scale: 0.5;
+  }
+  to {
+    scale: 1;
+    transform: translateY(10px);
+    text-shadow: 0 1px 0 #0a0a0a, 0 2px 0 #1c1c1c, 0 3px 0 #2e2e2e,
+      0 4px 4px #3a3a3a, 0 5px 5px #4e4e4e;
+  }
+}
+@keyframes textanimation {
+  0% {
+    stroke-dashoffset: 60;
+  }
+  80% {
+    fill: transparent;
+  }
+  100% {
+    stroke-dashoffset: 0;
+    fill: #111111;
+  }
+}
+.menu {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  padding: 0;
+}
+.line {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 6;
+  transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+    stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.line1 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.line2 {
+  stroke-dasharray: 60 60;
+  stroke-width: 6;
+}
+.line3 {
+  stroke-dasharray: 60 207;
+  stroke-width: 6;
+}
+.opened .line1 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.opened .line2 {
+  stroke-dasharray: 1 60;
+  stroke-dashoffset: -30;
+  stroke-width: 6;
+}
+.opened .line3 {
+  stroke-dasharray: 90 207;
+  stroke-dashoffset: -134;
+  stroke-width: 6;
+}
+.menu-header h1 {
+  font-family: "Bebas Neue", sans-serif; /* Bold, all-caps like Nike */
+  font-weight: 400; /* Natural bold */
+  font-size: 4rem; /* Larger for impact */
+  letter-spacing: 0.1em; /* Spacing for premium feel */
+  text-transform: uppercase;
+  color: #000000;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Subtle shadow for depth */
+  position: relative; /* For swoosh underline */
+}
+.menu-header h1::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #000000,
+    transparent
+  ); /* Swoosh gradient */
+  border-radius: 2px;
+  transition: width 0.5s ease; /* Fallback if JS fails */
+}
+
+.logo,
+.menu-logo {
+  position: absolute;
+  top: 2em;
+  left: 2em;
+}
+
+.logo a,
+.menu-logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: 60px;
+  font-weight: lighter;
+}
+
+.logo {
+  color: black;
+}
+.menu-logo {
+  color: rgb(255, 255, 255);
+}
+
+.menu-toggle {
+  position: fixed;
+  top: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  right: 5em;
+  width: 40px;
+  height: 40px;
+  fill: transparent;
+  border-radius: 8em;
+  transition: widht 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform-origin: right;
+  cursor: pointer;
+  z-index: 2;
+}
+.menu-toggle.opened {
+  width: 40px;
+}
+
+.menu-copy {
+  position: absolute;
+  display: flex;
+  top: 30%;
+  left: 30px;
+  transform: translateY(-30%);
+  fill: transparent;
+  transition: left 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+  z-index: 1;
+}
+
+.menu-copy p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+}
+.hb {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  display: block;
+  display: inline-flex;
+  object-fit: cover;
+  object-position: center;
+}
+.menu-toggle.opened .menu-copy {
+  opacity: 0;
+}
+
+.menu-bar {
+  position: absolute;
+  width: 1.5px;
+  height: 1.5px;
+  fill: transparent;
+  transition-property: transform;
+  transition: all 250ms ease-out;
+}
+
+.menu-bar[data-position="top"] {
+  transform: translateY(-3px);
+}
+
+.menu-bar[data-position="top"] {
+  transform: translateY(3px);
+}
+
+.menu-toggle.opened .menu-bar[data-posititon="top"] {
+  transform: translateY(0) rotate(45deg) scaleX(1.05);
+}
+
+.menu-toggle.opened .menu-bar[data-posititon="bottom"] {
+  transform: translateY(0) rotate(-45deg) scaleX(1.05);
+}
+.link {
+  color: rgb(0, 0, 0);
+}
+.menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: #ffffff;
+  pointer-events: none;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+}
+
+.col {
+  flex: 1;
+}
+.col-2 {
+  flex: 2;
+}
+
+.col {
+  position: relative;
+  height: 100%;
+  padding: 10em 2em 2em 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.link {
+  position: relative;
+  transform: translateY(30px);
+  opacity: 0;
+}
+
+.link:hover {
+  transition: beginning 3s ease-in-out alternate;
+}
+.link a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 35px;
+  letter-spacing: -1.5px;
+  line-height: 125%;
+}
+.crazy {
+  background-image: url(abstract-fire-shape-orange-gradient-graphic-background-vector-illustration-abstract-fire-shape-orange-gradient-graphic-background-175901178.webp);
+  background-position: center;
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.video-wrapper {
+  width: 100%;
+  aspect-ratio: 16/9;
+  background-color: #1d1d1d;
+  overflow: hidden;
+  filter: drop-shadow(0 0 10px #dc143c);
+  padding: 2em;
+  clip-path: polygon(0% 100%, 100% 100%, 100% 100%, 0% 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-wrapper video {
+  object-fit: cover;
+  object-position: center;
+}
+
+.socials {
+  width: 50%;
+  display: flex;
+  gap: 2em;
+}
+
+.socials.sub-col {
+  flex: 1;
+}
+.socials .sub-col p {
+  position: relative;
+  color: #000000;
+  transform: translateY(30px);
+  opacity: 0;
+  text-transform: uppercase;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+.p {
+  color: #000000;
+}
+
+.headerg .headgehog {
+  color: #000000;
+  text-transform: uppercase;
+  font-family: nike;
+  font-size: 300px;
+  line-height: 100%;
+  height: 200px;
+}
+
+.headerg h1 span {
+  position: relative;
+  display: inline-block;
+  transform: scale(0.75) translate(500px) rotateY(90deg);
+  transform-origin: bottom;
+}
+
+.nike-logo-link {
+  position: fixed;
+  bottom: 90%; /* Adjust as needed */
+  left: 7%; /* Adjust as needed */
+  z-index: 999; /* Below menu, above everything else */
+  display: block; /* For transform */
+  width: 60px; /* Size of the logo */
+  height: 60px;
+  opacity: 0; /* Start hidden */
+  transform: rotate(-90deg) scale(2); /* Initial state for animation */
+  transform-origin: center center;
+  color: #ff0077; /* Default color for the SVG */
+  cursor: pointer;
+}
+
+.nike-logo {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* Ensure the SVG path uses the parent's color (currentColor) */
+.nike-logo .op {
+  fill: transparent;
+  stroke: #000000;
+  stroke-width: 0.1;
+  stroke-dasharray: 50;
+  stroke-dashoffset: 50;
+}
+
+/* ... rest of your existing CSS ... */
+
+.container3 img {
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gallery img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.cursor {
+  position: absolute;
+  height: 300px;
+  width: 400px;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+.gallery {
+  position: absolute;
+  width: 200%;
+  height: 100%;
+  left: -75%;
+  overflow: hidden;
+}
+.item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 80px;
+  cursor: pointer;
+}
+.item p {
+  width: 100%;
+  font-size: 42px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #fff;
+}
+.item p span {
+  padding: 0 20px;
+  font-size: 16px;
+}
+
+#vo {
+  font-family: acquire;
+  font-size: 4vw;
+  text-transform: uppercase;
+  opacity: 0;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  text-shadow: -4px -2px 0 #000000, 4px 2px 0 #ffffff;
+  white-space: nowrap;
+}
+
+#pabout {
+  background-color: #0a0a0a;
+  position: relative;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.information {
+  position: absolute;
+  left: 20%;
+  padding: 0 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: darkgray;
+  gap: 8px;
+  font-size: 19px;
+}
+.information h1 {
+  color: #fff;
+  font-size: 30px;
+}
+.information2 {
+  position: absolute;
+  left: 40%;
+  padding: 0 2rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: darkgray;
+  margin-left: 200px;
+  gap: 8px;
+  font-size: 19px;
+}
+.information2 h1 {
+  color: #fff;
+  font-size: 30px;
+}
+#pabout a {
+  color: darkgray;
+  text-decoration: none;
+}
+.transition {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.transition-row {
+  flex: 1;
+  display: flex;
+}
+
+.transition-row row-1 block {
+  transform-origin: top;
+}
+.transition-row row-2 block {
+  transform-origin: bottom;
+}
+
+.block {
+  flex: 1;
+  background-color: #dc143c;
+  transform: scaleY(1);
+  will-change: transform;
+}
+.pagebutton {
+  position: absolute;
+  height: 150px;
+  width: 700px;
+  text-wrap: none;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}
+
+.pagebutton .lekha {
+  font-family: "Gilroy-Bold", sans-serif;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.pagebutton .lekha span {
+  color: #f7f7f7;
+}
+
+.pagebutton button {
+  margin-left: 50%;
+  border-radius: 50px;
+}
+
+.p12i {
+  height: 300px;
+  width: 300px;
+  position: absolute;
+  display: flex;
+  top: 45%;
+  left: 45%;
+  transform: translate(-55%, -55%);
+  z-index: 2;
+}
+
+.p12i img {
+  object-fit: cover;
+  object-position: center;
+}
+.classy {
+  position: absolute;
+  height: 120vh;
+  width: 100vw;
+  clip-path: polygon(100% 100%, 0% 100%, 100% 0);
+  background-color: #000000;
+}
+.discover {
+  width: 100vw;
+  position: absolute;
+  top: 90%;
+  display: flex;
+  height: max-content;
+  justify-content: right;
+  align-items: right;
+  align-content: right;
+  color: white;
+  font-family: "Gilroy-Bold", sans-serif;
+  text-transform: uppercase;
+}
+#p2 {
+  background-color: #000000;
+}
+#pabout footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 100vw;
+}
+#pabout {
+  font-size: 19px;
+}
+#pabout footer .links3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-end;
+  width: 100vw;
+}
